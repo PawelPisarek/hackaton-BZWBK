@@ -1,7 +1,10 @@
 @import '../colors';
 @import '../buttons';
 
-
+.title {
+  text-align: left;
+  padding: 0 0 0 20px;
+}
 .mat-select{
     margin: 30px auto;
     width: 80%;

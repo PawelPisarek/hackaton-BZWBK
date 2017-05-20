@@ -30,7 +30,7 @@
       <div class="box__info">
         <div class="name">{{note.name}}</div>
         <div class="date">17.04.2030</div>
-        <div class="description">{{note.description}}</div>
+        <div class="description">{{note.description|truncate:[230]}}</div>
         <div class="box__footer">
           <div class="box__subtitle__item box__footer__area">
             <i class="material-icons">location_on</i>
@@ -45,15 +45,13 @@
             <!--</div>-->
           </div>
           <div class="box__subtitle__item box__footer__tranche">
-
-            <!--<div class="tranche">-->
+            <i class="material-icons">perm_contact_calendar</i>
               {{note.tranche}}
             <!--</div>-->
           </div>
           <div class="box__subtitle__item box__footer__price">
-            <!--<div class="price">-->
-              {{note.price}} zł
-            <!--</div>-->
+            <i class="material-icons">monetization_on</i>
+              {{note.price}}
           </div>
         </div>
       </div>

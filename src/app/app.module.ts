@@ -16,6 +16,7 @@ import {MdSelectModule} from '@angular/material';
 import { LendingCriteriaComponent } from './lending-criteria/lending-criteria.component';
 import { BorrowersDetailComponent } from './borrowers-detail/borrowers-detail.component';
 import { RatingComponent } from './rating/rating.component';
+import {TruncatePipe} from "./borrowers-list/truncate.pipe";
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { RatingComponent } from './rating/rating.component';
     BorrowersListComponent,
     LendingCriteriaComponent,
     BorrowersDetailComponent,
-    RatingComponent
+    RatingComponent,
+    TruncatePipe
   ],
   imports: [
     BrowserModule,
