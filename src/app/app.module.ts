@@ -14,6 +14,7 @@ import { BorrowersListComponent } from './borrowers-list/borrowers-list.componen
 import {MaterialModule} from "@angular/material";
 import {MdSelectModule} from '@angular/material';
 import { LendingCriteriaComponent } from './lending-criteria/lending-criteria.component';
+import { BorrowersDetailComponent } from './borrowers-detail/borrowers-detail.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { LendingCriteriaComponent } from './lending-criteria/lending-criteria.co
     FirstScreenComponent,
 
     BorrowersListComponent,
-    LendingCriteriaComponent
+    LendingCriteriaComponent,
+    BorrowersDetailComponent
   ],
   imports: [
     BrowserModule,

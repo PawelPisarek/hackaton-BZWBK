@@ -10,5 +10,6 @@
     <p md-line >{{note.tranche}}</p>
     <p md-line >{{note.price}}$</p>
     <!--<img src="{{note.avatarSrc}}" alt="">-->
+    <a [routerLink]="[note.id]">show detail</a>
   </md-list-item>
 </md-list>

@@ -5,12 +5,14 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 import {BorrowersListComponent} from "./borrowers-list/borrowers-list.component";
+import {BorrowersDetailComponent} from "./borrowers-detail/borrowers-detail.component";
 
 const routes: Routes = [
   // { path: 'user/edit/:id', component: UserEditComponent, resolve: { user: UserResolve }},
   { path: 'pozyczkobiorca', component: BorrowerComponent },
   { path: 'pozyczkodawca', component: LenderComponent },
   { path: 'borrowers-list', component: BorrowersListComponent },
+  { path: 'borrowers-list/:id', component: BorrowersDetailComponent },
   { path: 'lending-criteria', component: LendingCriteriaComponent },
 
   { path: '', redirectTo: '/dashboard', pathMatch: 'full'},
