@@ -1,5 +1,28 @@
-<md-select placeholder="Favorite food">
-  <md-option *ngFor="let food of foods" [value]="food.value">
-    {{ food }}
-  </md-option>
-</md-select>
+<section class="criteria">
+  <div class="container">
+
+    <div class="criteria-row">
+      <md-select placeholder="Branża">
+        <md-option *ngFor="let trade of trades" [value]="trade.value">
+          {{ trade.name }}
+        </md-option>
+      </md-select>
+    </div>
+
+    <div class="criteria-row">
+      <md-select placeholder="Województwo">
+        <md-option *ngFor="let food of foods" [value]="food.value">
+          {{ food }}
+        </md-option>
+      </md-select>
+    </div>
+
+    <div class="criteria-row">
+      <md-select placeholder="Miasto">
+        <md-option *ngFor="let food of foods" [value]="food.value">
+          {{ food }}
+        </md-option>
+      </md-select>
+    </div>
+  </div>
+</section>

@@ -6,7 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./lending-criteria.component.scss']
 })
 export class LendingCriteriaComponent implements OnInit {
-  foods = ["aaaa", "bbbbb"]
+  trades = [
+    {'value': "all",
+    'name': 'Wszystkie'},
+    {'value': "IT",
+    'name' : "IT"},
+    {'value': "culture",
+    'name' : "Kultura"},
+
+  ]
   constructor() { }
 
   ngOnInit() {
