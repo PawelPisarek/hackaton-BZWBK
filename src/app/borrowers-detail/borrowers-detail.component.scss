@@ -1,0 +1,47 @@
+@import '../colors';
+@import '../buttons';
+
+.box{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    height: 300px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+    &:hover{
+        background: $light;
+    }
+}
+
+.box__image{
+    width: 43%;
+    display: inline-block;
+    vertical-align: top;
+    img{
+        width: 100%;
+    }
+}
+.box__desc{
+    display: inline-block;
+    width: 60%;
+}
+
+.box__actions{
+    width: 35%;
+    display: inline-block;
+}
+
+.box__title__name{
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.box__subtitle__item{
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+
+.box__avatar__avatarSrc img{
+    width: 100%;
+}
