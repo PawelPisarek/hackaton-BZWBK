@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {USERS} from "./exampleData/data";
 
 @Component({
   selector: 'app-borrowers-list',
@@ -7,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BorrowersListComponent implements OnInit {
 
+  users = USERS;
   constructor() { }
 
   ngOnInit() {

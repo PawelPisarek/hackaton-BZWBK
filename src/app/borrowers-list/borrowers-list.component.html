@@ -1,7 +1,10 @@
 <md-list>
-  <md-list-item *ngFor="let message of [1,2,3]">
-    <h3 md-line> asdasdsdas </h3>
-    <p md-line> asdasdsdas </p>
-    <p md-line class="demo-2"> asdasdsdas </p>
+  <md-divider></md-divider>
+  <h3 md-subheader>Notes</h3>
+  <md-list-item *ngFor="let note of users">
+    <md-icon md-list-icon></md-icon>
+    <h4 md-line>asdasdasd</h4>
+    <p md-line class="demo-2"> asdasdasd </p>
+    <img src="{{note.avatarSrc}}" alt="">
   </md-list-item>
 </md-list>
