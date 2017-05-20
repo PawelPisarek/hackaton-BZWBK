@@ -4,7 +4,7 @@
 
 .mat-select{
     margin: 30px auto;
-    min-width: 170px;
+    width: 80%;
     text-align: left;
 }
 
@@ -17,11 +17,7 @@
 .criteria-container{
     background: $light;
     padding: 40px;
-    width: 45%;
+    width: 55%;
     background-color: white;
     text-align: center;
-}
-
-.mat-primary .mat-option.mat-selected{
-    color: blue;
 }

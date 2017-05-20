@@ -1,5 +1,19 @@
 @import '../colors';
 
 .button{
+    width: 170px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 20px auto;
+    color: #fff;
+}
+
+.button-next{
     background: $main;
+    &:hover{
+        background: #91d2bb;
+    }
+}
+.button-container{
+    text-align: center;
 }
