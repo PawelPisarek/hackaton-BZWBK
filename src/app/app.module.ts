@@ -12,6 +12,7 @@ import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { FirstScreenComponent } from './borrower/first-screen/first-screen.component';
 import { BorrowersListComponent } from './borrowers-list/borrowers-list.component';
 import {MaterialModule} from "@angular/material";
+import { LendingCriteriaComponent } from './lending-criteria/lending-criteria.component';
 
 @NgModule({
   declarations: [
@@ -20,12 +21,8 @@ import {MaterialModule} from "@angular/material";
     LenderComponent,
     FirstScreenComponent,
 
-
-    BorrowersListComponent
-
-
-
-
+    BorrowersListComponent,
+    LendingCriteriaComponent
   ],
   imports: [
     BrowserModule,

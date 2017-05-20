@@ -1,4 +1,7 @@
-<h1>
-  {{title}}
-</h1>
+<nav>
+  <a [routerLink]="['/pozyczkobiorca']">dashboard</a>
+  <a [routerLink]="['/pozyczkodawca']">Profile</a>
+  <a [routerLink]="['/borrowers-list']">Product</a>
+  <a [routerLink]="['/lending-criteria']">User list</a>
+</nav>
 <router-outlet></router-outlet>

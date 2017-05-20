@@ -1,3 +1,4 @@
+import { LendingCriteriaComponent } from './lending-criteria/lending-criteria.component';
 import { LenderComponent } from './lender/lender.component';
 import { BorrowerComponent } from './borrower/borrower.component';
 import { NgModule } from '@angular/core';
@@ -10,6 +11,8 @@ const routes: Routes = [
   { path: 'pozyczkobiorca', component: BorrowerComponent },
   { path: 'pozyczkodawca', component: LenderComponent },
   { path: 'borrowers-list', component: BorrowersListComponent },
+  { path: 'lending-criteria', component: LendingCriteriaComponent },
+
   { path: '', redirectTo: '/dashboard', pathMatch: 'full'},
 
 ];
