@@ -1,4 +1,4 @@
-  <article class="box" *ngFor="let note of users">  
+  <article class="box" *ngFor="let note of users" [routerLink]="[note.id]">  
       <div class="box__image"> 
         <img src="{{note.avatarSrc}}" alt=""> 
       </div> 
