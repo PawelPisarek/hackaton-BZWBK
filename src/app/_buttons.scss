@@ -13,13 +13,13 @@
 .button-next{
     background: $main;
     &:hover{
-        background: #91d2bb;
+        background: $secondary;
     }
 }
 .button-action{
     background: $main;
     &:hover{
-        background: #91d2bb;
+        background: $secondary;
     }
 }
 .button-container{
