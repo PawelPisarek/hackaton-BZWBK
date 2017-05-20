@@ -11,16 +11,16 @@
 
     <div class="criteria-row">
       <md-select placeholder="Województwo">
-        <md-option *ngFor="let food of foods" [value]="food.value">
-          {{ food }}
+        <md-option *ngFor="let food of areas" [value]="food.value">
+          {{ food.name }}
         </md-option>
       </md-select>
     </div>
 
     <div class="criteria-row">
       <md-select placeholder="Miasto">
-        <md-option *ngFor="let food of foods" [value]="food.value">
-          {{ food }}
+        <md-option *ngFor="let food of citi" [value]="food.value">
+          {{ food.name }}
         </md-option>
       </md-select>
     </div>
