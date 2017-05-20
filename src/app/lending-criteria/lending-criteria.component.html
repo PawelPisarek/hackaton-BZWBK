@@ -1,8 +1,11 @@
 <section class="criteria">
   <div class="criteria-container">
-
+    <div class="title">
+      <h1>Wybierz</h1>
+      <h5>branżę i region w który chcesz inwestować</h5>
+    </div>
     <div class="criteria-row">
-      <md-select placeholder="Branża">
+      <md-select placeholder="Branża" color="blue">
         <md-option ng-selected="index == 1" *ngFor="let trade of trades" [value]="trade.value">
           {{ trade.name }}
         </md-option>
@@ -10,7 +13,7 @@
     </div>
 
     <div class="criteria-row">
-      <md-select placeholder="Województwo">
+      <md-select placeholder="Województwo" color="blue">
         <md-option *ngFor="let food of areas" [value]="food.value">
           {{ food.name }}
         </md-option>
@@ -18,7 +21,7 @@
     </div>
 
     <div class="criteria-row">
-      <md-select placeholder="Miasto">
+      <md-select placeholder="Miasto" color="blue">
         <md-option *ngFor="let food of citi" [value]="food.value">
           {{ food.name }}
         </md-option>
@@ -27,7 +30,7 @@
 
     <div class="button-container">
       <div [routerLink]="['/borrowers-list']" class="button button-next">
-       Dalej ›
+        Dalej ›
       </div>
     </div>
 
