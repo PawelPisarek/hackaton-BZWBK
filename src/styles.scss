@@ -1,5 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import 'app/colors'; 
+
 .mat-option.mat-selected.mat-primary, .mat-primary .mat-option.mat-selected {
   color: #57bbc2 !important
 }
@@ -31,4 +33,7 @@ a, a:visited{
     text-decoration: none;
     color: inherit;
 }
-
+.active .mat-select-trigger{
+    color: $main !important;
+    font-weight: 700;
+}
