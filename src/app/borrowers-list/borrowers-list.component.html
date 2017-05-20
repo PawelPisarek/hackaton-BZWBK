@@ -4,24 +4,32 @@
   <div class="container">
     <div class="container-flex">
       <h2>Wszystkie projekty</h2>
+      <div class="sorting">
 
-      <div class="criteria-row">
-        <md-select placeholder="Ocena wiarygodności">
-          <md-option *ngFor="let food of areas" [value]="food.value">
-            {{ food.name }}
-          </md-option>
-        </md-select>
+        <div class="criteria-row">
+          <md-select placeholder="Popularność">
+          </md-select>
+
+
+        <div class="criteria-row">
+          <md-select placeholder="Data dodania">
+          </md-select>
+        </div>
+
+        <div class="criteria-row active">
+          <md-select placeholder="Ocena wiarygodności">
+          </md-select>
+        </div>
+        </div>
       </div>
     </div>
-
-
   <article class="box" *ngFor="let note of users" [routerLink]="[note.id]">
       <div class="box__image">
         <img src="{{note.avatarSrc}}" alt="">
       </div>
       <div class="box__info">
          <div class="name">{{note.name}}</div>
-         <div class="date">17.04.2017</div>
+         <div class="date">17.04.2030</div>
          <div class="description">{{note.description}}</div>
          <div class="box__footer">
            <i class="material-icons">location_on</i>
