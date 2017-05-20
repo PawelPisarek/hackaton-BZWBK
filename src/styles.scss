@@ -1,5 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+.mat-option.mat-selected.mat-primary, .mat-primary .mat-option.mat-selected {
+  color: #57bbc2 !important
+}
+
+.mat-select:focus:not(.mat-select-disabled).mat-primary .mat-select-arrow, .mat-select:focus:not(.mat-select-disabled).mat-primary .mat-select-trigger {
+  color: #57bbc2 !important
+}
 
 *{
   transition: 200ms ease;
