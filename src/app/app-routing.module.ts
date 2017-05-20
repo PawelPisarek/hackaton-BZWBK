@@ -7,11 +7,13 @@ import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 import {BorrowersListComponent} from "./borrowers-list/borrowers-list.component";
 import {BorrowersDetailComponent} from "./borrowers-detail/borrowers-detail.component";
 import {RatingComponent} from "./rating/rating.component";
+import {MainPageComponent} from "./main-page/main-page.component";
 
 const routes: Routes = [
   // { path: 'user/edit/:id', component: UserEditComponent, resolve: { user: UserResolve }},
   { path: 'pozyczkobiorca', component: BorrowerComponent },
   { path: 'pozyczkodawca', component: LenderComponent },
+  { path: 'main-page', component: MainPageComponent },
   { path: 'borrowers-list', component: BorrowersListComponent },
   { path: 'borrowers-list/:id', component: BorrowersDetailComponent },
   { path: 'borrowers-list/:id/rating/:id', component: RatingComponent },
