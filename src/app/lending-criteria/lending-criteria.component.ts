@@ -14,7 +14,36 @@ export class LendingCriteriaComponent implements OnInit {
     {'value': "culture",
     'name' : "Kultura"},
 
-  ]
+  ];
+  areas = [
+    {
+      'value': "WW",
+      'name': 'Mazowieckie'
+    },
+    {
+      'value': "PO",
+      'name': "Wielkopolskie"
+    },
+    {
+      'value': "DK",
+      'name': "Dolnośląskie"
+    },
+
+  ];
+  citi = [
+    {
+      'value': "Warsaw",
+      'name': 'Warszawa'
+    },
+    {
+      'value': "Poznan",
+      'name': "Poznań"
+    },
+    {
+      'value': "Wroclaw",
+      'name': "Wrocław"
+    },
+  ];
   constructor() { }
 
   ngOnInit() {
