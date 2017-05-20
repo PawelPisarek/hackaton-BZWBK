@@ -1,5 +1,4 @@
-
-  <div class="borrowers-list">
+<div class="borrowers-list">
 
   <div class="container">
     <div class="container-flex">
@@ -15,26 +14,40 @@
     </div>
 
 
-  <article class="box" *ngFor="let note of users" [routerLink]="[note.id]">
+    <article class="box" *ngFor="let note of users" [routerLink]="[note.id]">
       <div class="box__image">
         <img src="{{note.avatarSrc}}" alt="">
       </div>
       <div class="box__info">
-         <div class="name">{{note.name}}</div>
-         <div class="date">17.04.2017</div>
-         <div class="description">{{note.description}}</div>
-         <div class="box__footer">
-           <i class="material-icons">location_on</i>
-           <div class="area">{{note.area}}
-            </div>
-           <i class="material-icons">domain</i>
-           <div class="buisnesArea">{{note.buisnesArea}}
-            </div>
-            <div class="tranche">{{note.tranche}}</div>
-           <div class="price">{{note.price}} zł
-            </div>
-         </div>
+        <div class="name">{{note.name}}</div>
+        <div class="date">17.04.2017</div>
+        <div class="description">{{note.description}}</div>
+        <div class="box__footer">
+          <div class="box__subtitle__item box__footer__area">
+            <i class="material-icons">location_on</i>
+            <!--<div class="area">-->
+              {{note.area}}
+            <!--</div>-->
+          </div>
+          <div class="box__subtitle__item box__footer__domain">
+            <i class="material-icons">domain</i>
+            <!--<div class="buisnesArea">-->
+              {{note.buisnesArea}}
+            <!--</div>-->
+          </div>
+          <div class="box__subtitle__item box__footer__tranche">
+
+            <!--<div class="tranche">-->
+              {{note.tranche}}
+            <!--</div>-->
+          </div>
+          <div class="box__subtitle__item box__footer__price">
+            <!--<div class="price">-->
+              {{note.price}} zł
+            <!--</div>-->
+          </div>
+        </div>
       </div>
-  </article>
+    </article>
   </div>
-   </div>
+</div>

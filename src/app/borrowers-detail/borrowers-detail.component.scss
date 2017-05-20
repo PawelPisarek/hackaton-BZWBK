@@ -4,13 +4,13 @@
 .borrowers-list{
   background: #fff;
   margin-top:70px;
+  padding: 30px;
 }
 
 .box{
     display: flex;
     align-items: center;
     margin: 10px;
-    height: 300px;
     overflow: hidden;
     background: rgba(255, 255, 255, 0.8);
     cursor: pointer;
@@ -18,6 +18,36 @@
         background: $light;
     }
 }
+.box__desc{
+  width: 54%;
+  display: inline-block;
+  margin-left: 10px;
+  .description {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+}
+
+.box__title__name{
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.box__title__subtitle{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  font-weight: 700;
+}
+
+.date{
+  font-style: italic;
+  font-size: 0.8em;
+  color: #999;
+  margin-bottom: 10px;
+}
+
 
 .box__image{
     width: 43%;
