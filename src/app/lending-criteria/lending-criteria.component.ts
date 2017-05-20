@@ -43,7 +43,6 @@ export class LendingCriteriaComponent implements OnInit {
       'value': "Wroclaw",
       'name': "Wrocław"
     },
-
   ];
   constructor() { }
 
