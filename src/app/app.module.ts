@@ -10,20 +10,35 @@ import { BorrowerComponent } from './borrower/borrower.component';
 import { LenderComponent } from './lender/lender.component';
 import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { FirstScreenComponent } from './borrower/first-screen/first-screen.component';
+import { BorrowersListComponent } from './borrowers-list/borrowers-list.component';
+import {MaterialModule} from "@angular/material";
 
 @NgModule({
   declarations: [
     AppComponent,
     BorrowerComponent,
     LenderComponent,
-    FirstScreenComponent
+    FirstScreenComponent,
+
+
+    BorrowersListComponent
+
+
+
+
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
     BrowserAnimationsModule,
-    AppRoutingModule 
+    MaterialModule,
+    AppRoutingModule,
+
+
+
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]
