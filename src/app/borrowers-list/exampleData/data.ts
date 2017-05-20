@@ -33,7 +33,7 @@ export function uuid() {
 };
 
 
-let me: User = new User('FindAir', 'assets/images/avatars/female-avatar-1.png', 100000, 'co 3 miesiące 2 tysiące', 'IT', 'Poznań', ' FindAir chce produkować inhalatory, które są „sprzężone” z aplikacją na smartfony. Dzięki takiemu skorelowaniu hardware i software, aplikacja ma zbierać informacje o tym, kiedy i w jakich okolicznościach użytkownik korzystał z inhalatora. W aplikacji jest kalendarz pyleń oraz połączenie ze stacjami pomiarowymi, badającymi poziom emisji zanieczyszczeń.  ');
+let me: User = new User('FindAir', 'assets/images/stock1.jpg', 100000, 'co 3 miesiące 2 tysiące', 'IT', 'Poznań', ' FindAir chce produkować inhalatory, które są „sprzężone” z aplikacją na smartfony. Dzięki takiemu skorelowaniu hardware i software, aplikacja ma zbierać informacje o tym, kiedy i w jakich okolicznościach użytkownik korzystał z inhalatora. W aplikacji jest kalendarz pyleń oraz połączenie ze stacjami pomiarowymi, badającymi poziom emisji zanieczyszczeń.  ');
 let ladycap: User = new User('Microsoft', 'assets/images/avatars/female-avatar-2.png', 20000,'co 2 miesiące 4 tysiące', 'budownictwo', 'Wrocław', 'Oprogramowanie dla użytkowników domowyc');
 let echo: User = new User('stripe', 'assets/images/avatars/male-avatar-1.png', 30300,'co pół roku 15150', 'fintech', 'Warszawa', 'Obsługa płatności');
 let rev: User = new User('Blik', 'assets/images/avatars/female-avatar-4.png', 500000,'co miesiąc 2000', 'IT', 'Kraków', 'Płatności telefonem');

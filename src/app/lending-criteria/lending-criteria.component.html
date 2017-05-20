@@ -3,7 +3,7 @@
 
     <div class="criteria-row">
       <md-select placeholder="Branża">
-        <md-option *ngFor="let trade of trades" [value]="trade.value">
+        <md-option ng-selected="index == 1" *ngFor="let trade of trades" [value]="trade.value">
           {{ trade.name }}
         </md-option>
       </md-select>

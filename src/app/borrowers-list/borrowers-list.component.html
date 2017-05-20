@@ -1,14 +1,13 @@
-<md-list>
-  <md-divider></md-divider>
-  <h3 md-subheader>Notes</h3>
-  <md-list-item *ngFor="let note of users">
-    <md-icon md-list-icon></md-icon>
-    <h4 md-line>{{note.name}}</h4>
-    <p md-line >{{note.description}}</p>
-    <p md-line >{{note.area}}</p>
-    <p md-line >{{note.buisnesArea}}</p>
-    <p md-line >{{note.tranche}}</p>
-    <p md-line >{{note.price}}$</p>
-    <!--<img src="{{note.avatarSrc}}" alt="">-->
-  </md-list-item>
-</md-list>
+  <article class="box" *ngFor="let note of users"> 
+      <div class="box__image">
+        <img src="{{note.avatarSrc}}" alt="">
+      </div>
+      <div class="box__info">
+        <h4 md-line>{{note.name}}</h4>
+         <div class="description">{{note.description}}</div>
+         <div class="area">{{note.area}}</div>
+         <div class="buisnesArea">{{note.buisnesArea}}</div>
+         <div class="tranche">{{note.tranche}}</div>
+         <div class="price">{{note.price}}zł</div>
+      </div>
+  </article>

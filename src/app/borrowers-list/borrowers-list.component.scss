@@ -1,0 +1,22 @@
+ $blue: #0095ff; 
+.box{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border-bottom: 1px solid $blue;
+}
+
+.box__image{
+    width: 43%;
+    display: inline-block;
+    vertical-align: top;
+    img{
+        width: 100%;
+    }
+}
+
+.box__info{
+    width: 54%;
+    display: inline-block;
+    margin-left: 10px;
+}
