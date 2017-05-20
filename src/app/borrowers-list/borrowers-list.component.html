@@ -3,8 +3,11 @@
   <h3 md-subheader>Notes</h3>
   <md-list-item *ngFor="let note of users">
     <md-icon md-list-icon></md-icon>
-    <h4 md-line>asdasdasd</h4>
-    <p md-line class="demo-2"> asdasdasd </p>
-    <img src="{{note.avatarSrc}}" alt="">
+    <h4 md-line>{{note.name}}</h4>
+    <p md-line >{{note.description}}</p>
+    <p md-line >{{note.area}}</p>
+    <p md-line >{{note.buisnesArea}}</p>
+    <p md-line >{{note.price}}$</p>
+    <!--<img src="{{note.avatarSrc}}" alt="">-->
   </md-list-item>
 </md-list>
