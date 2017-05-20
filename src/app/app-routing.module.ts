@@ -6,6 +6,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 import {BorrowersListComponent} from "./borrowers-list/borrowers-list.component";
 import {BorrowersDetailComponent} from "./borrowers-detail/borrowers-detail.component";
+import {RatingComponent} from "./rating/rating.component";
 
 const routes: Routes = [
   // { path: 'user/edit/:id', component: UserEditComponent, resolve: { user: UserResolve }},
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'pozyczkodawca', component: LenderComponent },
   { path: 'borrowers-list', component: BorrowersListComponent },
   { path: 'borrowers-list/:id', component: BorrowersDetailComponent },
+  { path: 'borrowers-list/:id/rating/:id', component: RatingComponent },
   { path: 'lending-criteria', component: LendingCriteriaComponent },
 
   { path: '', redirectTo: '/dashboard', pathMatch: 'full'},

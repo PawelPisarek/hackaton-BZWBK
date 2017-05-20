@@ -15,6 +15,7 @@ import {MaterialModule} from "@angular/material";
 import {MdSelectModule} from '@angular/material';
 import { LendingCriteriaComponent } from './lending-criteria/lending-criteria.component';
 import { BorrowersDetailComponent } from './borrowers-detail/borrowers-detail.component';
+import { RatingComponent } from './rating/rating.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { BorrowersDetailComponent } from './borrowers-detail/borrowers-detail.co
 
     BorrowersListComponent,
     LendingCriteriaComponent,
-    BorrowersDetailComponent
+    BorrowersDetailComponent,
+    RatingComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,10 @@
+<div class="box">
+ocena banku
+  {{user.rate}}
+  <br>
+  zaufali mi
+  <div class="box__loan" *ngFor="let loan of user.loans">
+    <div class="w3-grey" style="height:24px" [style.width.%]=loan></div>{{loan}}% <!--//nie wiem jak to oznaczyć klasą-->
+  </div>
+
+</div>
