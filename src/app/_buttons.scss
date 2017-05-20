@@ -5,10 +5,18 @@
     padding: 10px;
     cursor: pointer;
     margin: 20px auto;
+    text-align: center;
     color: #fff;
+    text-transform: uppercase;
 }
 
 .button-next{
+    background: $main;
+    &:hover{
+        background: #91d2bb;
+    }
+}
+.button-action{
     background: $main;
     &:hover{
         background: #91d2bb;

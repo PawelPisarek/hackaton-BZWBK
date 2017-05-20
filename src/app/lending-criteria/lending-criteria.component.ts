@@ -16,6 +16,8 @@ export class LendingCriteriaComponent implements OnInit {
 
   ];
   areas = [
+    {'value': "all",
+    'name': 'Wszystkie'},
     {
       'value': "WW",
       'name': 'Mazowieckie'
@@ -31,6 +33,8 @@ export class LendingCriteriaComponent implements OnInit {
 
   ];
   citi = [
+    {'value': "all",
+    'name': 'Wszystkie'},
     {
       'value': "Warsaw",
       'name': 'Warszawa'
