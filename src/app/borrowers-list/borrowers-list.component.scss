@@ -1,9 +1,17 @@
- $blue: #0095ff; 
+ $main: #0095ff; 
+ $light: rgba(0, 149, 255, 0.2);
+
+
 .box{
     display: flex;
     align-items: center;
     margin: 10px;
-    border-bottom: 1px solid $blue;
+    height: 300px;
+    overflow: hidden;
+    cursor: pointer;
+    &:hover{
+        background: $light;
+    }
 }
 
 .box__image{
@@ -19,4 +27,19 @@
     width: 54%;
     display: inline-block;
     margin-left: 10px;
+}
+
+.buisnesArea, .tranche{
+    display: inline-block;
+}
+
+.box__footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.name{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
 }

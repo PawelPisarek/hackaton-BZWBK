@@ -1,13 +1,17 @@
+  <div class="container">
   <article class="box" *ngFor="let note of users" [routerLink]="[note.id]">  
       <div class="box__image"> 
         <img src="{{note.avatarSrc}}" alt=""> 
       </div> 
       <div class="box__info"> 
-        <h4 md-line>{{note.name}}</h4> 
+         <div class="name">{{note.name}}</div> 
          <div class="description">{{note.description}}</div> 
-         <div class="area">{{note.area}}</div> 
-         <div class="buisnesArea">{{note.buisnesArea}}</div> 
-         <div class="tranche">{{note.tranche}}</div> 
-         <div class="price">{{note.price}}zł</div> 
+         <div class="box__footer">
+            <div class="area">{{note.area}}</div> 
+            <div class="buisnesArea">{{note.buisnesArea}}</div> 
+            <div class="tranche">{{note.tranche}}</div> 
+            <div class="price">{{note.price}}zł</div> 
+         </div>
       </div> 
   </article>
+  </div>
