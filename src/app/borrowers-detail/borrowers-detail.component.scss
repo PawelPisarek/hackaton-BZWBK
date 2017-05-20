@@ -22,6 +22,7 @@
   width: 54%;
   display: inline-block;
   margin-left: 10px;
+  padding: 25px;
   .description {
     text-align: justify;
     text-justify: inter-word;
@@ -79,4 +80,30 @@
 
 .box__avatar__avatarSrc img{
     width: 100%;
+}
+.progress-bar{
+    background: $main;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.grey-bar{
+    background: #dedede;
+    border-radius: 20px;
+}
+
+.box__loan{
+    margin: 10px;
+}
+
+.previous-loans{
+    margin-top: 50px;
+}
+
+.rating .material-icons {
+    color: $main;
+    width: 20px;
+}
+.container-flex{
+    display: flex;
+    justify-content: space-between;
 }

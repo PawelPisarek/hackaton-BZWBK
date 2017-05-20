@@ -23,10 +23,22 @@
 
 
       <div class="box__desc">
+       
         <div class="box__title">
+           <div class="container-flex">
+          
+       
           <div class="box__title__name">
             {{user.name}}
           </div>
+          <div class="rating">
+              <i class="material-icons">star_rate</i>
+              <i class="material-icons">star_rate</i>
+              <i class="material-icons">star_border</i>
+              <i class="material-icons">star_border</i>
+              <i class="material-icons">star_border</i>
+          </div>
+           </div>
           <div class="date">17.04.2030</div>
           <div class="box__description">
             <div class="box__description__description">
@@ -51,7 +63,21 @@
             </div>
           </div>
         </div>
+
+        <div class="previous-loans">
+       
+        Wcześniejsze pożyczki
+        <div class="box__loan" *ngFor="let loan of user.loans">
+          {{loan}}% spłacenia
+          <div class="grey-bar">
+
+            <div class="progress-bar" style="height:18px" [style.width.%]=loan></div>
+          </div>
+        </div>
+           
+        </div>
       </div>
+      
     </article>
   </div>
 </div>
