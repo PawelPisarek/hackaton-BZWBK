@@ -17,6 +17,7 @@ import { LendingCriteriaComponent } from './lending-criteria/lending-criteria.co
 import { BorrowersDetailComponent } from './borrowers-detail/borrowers-detail.component';
 import { RatingComponent } from './rating/rating.component';
 import {TruncatePipe} from "./borrowers-list/truncate.pipe";
+import { MainPageComponent } from './main-page/main-page.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import {TruncatePipe} from "./borrowers-list/truncate.pipe";
     LendingCriteriaComponent,
     BorrowersDetailComponent,
     RatingComponent,
-    TruncatePipe
+    TruncatePipe,
+    MainPageComponent
   ],
   imports: [
     BrowserModule,
