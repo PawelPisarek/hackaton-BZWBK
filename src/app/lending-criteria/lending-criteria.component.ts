@@ -9,8 +9,13 @@ export class LendingCriteriaComponent implements OnInit {
   trades = [
     {'value': "all",
     'name': 'Wszystkie'},
+        {'value': "Zdrowie",
+    'name' : "Zdrowie"},
+        {'value': "Środowisko",
+    'name' : "Środowisko"},
     {'value': "IT",
     'name' : "IT"},
+
     {'value': "culture",
     'name' : "Kultura"},
 

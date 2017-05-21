@@ -25,7 +25,13 @@
 }
 
 .main-link{
-  margin-top: 60px;
+    margin-top: 40px;
+    display: inline-block;
+    padding: 20px;
+    cursor: pointer;
+    &:hover{
+      background: #e5f3c9;
+    }
 }
 .header{
   display: inline-block;
