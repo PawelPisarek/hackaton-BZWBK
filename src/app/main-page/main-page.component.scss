@@ -12,7 +12,48 @@
   width: 55%;
   background-color: white;
   text-align: center;
+      position: relative;
+    padding-left: 145px;
+    padding-top: 50px;
 }
 .csr {
   background: url('../../assets/images/csr.svg');
+}
+
+.color{
+  color: $main;
+}
+
+.main-link{
+  margin-top: 60px;
+}
+.header{
+  display: inline-block;
+}
+
+.csr{
+  display: inline-block;
+  width: 80px;
+  margin-right: 30px;
+  height: 80px;
+  vertical-align: bottom;
+  img{
+    width: 100%;
+  }
+}
+
+.csr-icons{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    
+    top: 20px;
+  img {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin: 7px 20px;
+    
+  }
 }

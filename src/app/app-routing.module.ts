@@ -19,7 +19,7 @@ const routes: Routes = [
   { path: 'borrowers-list/:id/rating/:id', component: RatingComponent },
   { path: 'lending-criteria', component: LendingCriteriaComponent },
 
-  { path: '', redirectTo: '/dashboard', pathMatch: 'full'},
+  { path: '', redirectTo: '/main-page', pathMatch: 'full'},
 
 ];
 

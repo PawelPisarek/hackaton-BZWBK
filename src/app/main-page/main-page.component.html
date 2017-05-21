@@ -1,18 +1,28 @@
 <section class="criteria">
   <div class="criteria-container">
-    <h1>Pożyczki dla przedsiębiorców</h1>
+    <div class="csr">
+      <img src="assets/images/csr.svg" alt="">
+    </div>
+    <h1 class="header">Pożyczki dla przedsiębiorców</h1>
     <p>
       Inwestuj w swoim regionie
     </p>
+     <div class="csr-icons">
+      <img src="assets/images/crs1.png" alt="">
+      <img src="assets/images/crs2.png" alt="">
+      <img src="assets/images/miejsca.png" alt="">
+      <img src="assets/images/srodowisko.png" alt="">
+    </div>
     <md-tab-group>
       <md-tab label="Chcę zainwestować">
-        <h1 [routerLink]="['/borrowers-list']">Firmy <div class="csr"></div></h1>
+        
+        <h1 class="main-link" [routerLink]="['/borrowers-list']">Zobacz firmy <span class="color">►</span></h1>
 
       </md-tab>
       <md-tab label="Chcę pożyczyć">
         <h1>Załóż konto</h1>
       </md-tab>
     </md-tab-group>
-
+   
   </div>
 </section>
